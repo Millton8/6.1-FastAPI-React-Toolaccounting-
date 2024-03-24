@@ -1,0 +1,25 @@
+.navigation {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+    .navigation.active {
+        color: red;
+        background-color: rgb(56, 200, 27);
+    }
+
+.navitabs {
+    background-color: rgb(252, 252, 252);
+    font-size: large;
+    border-radius: 25px;
+    padding: 0 10px 0 10px;
+    text-decoration: none;
+    color: rgb(41, 43, 45);
+}
+
+    .navitabs.active {
+        color: aliceblue;
+        background-color: #0071bc
+    }
